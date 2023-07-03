@@ -1,0 +1,11 @@
+framework module ANAnimation {
+  umbrella header "ANAnimation.h"
+
+  export *
+  module * { export * }
+}
+
+module ANAnimation.Swift {
+  header "ANAnimation-Swift.h"
+  requires objc
+}
