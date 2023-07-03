@@ -11,6 +11,7 @@
 		15AB2F902A5299560084C7FF /* ANAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15AB2F852A5299560084C7FF /* ANAnimation.framework */; };
 		15AB2F952A5299560084C7FF /* ANAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AB2F942A5299560084C7FF /* ANAnimationTests.swift */; };
 		15AB2F962A5299560084C7FF /* ANAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 15AB2F882A5299560084C7FF /* ANAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15AB2FB42A52A30D0084C7FF /* ANAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AB2FB32A52A30D0084C7FF /* ANAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		15AB2F892A5299560084C7FF /* ANAnimation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ANAnimation.docc; sourceTree = "<group>"; };
 		15AB2F8F2A5299560084C7FF /* ANAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15AB2F942A5299560084C7FF /* ANAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANAnimationTests.swift; sourceTree = "<group>"; };
+		15AB2FB32A52A30D0084C7FF /* ANAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				15AB2F882A5299560084C7FF /* ANAnimation.h */,
+				15AB2FB32A52A30D0084C7FF /* ANAnimation.swift */,
 				15AB2F892A5299560084C7FF /* ANAnimation.docc */,
 			);
 			path = ANAnimation;
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15AB2F8A2A5299560084C7FF /* ANAnimation.docc in Sources */,
+				15AB2FB42A52A30D0084C7FF /* ANAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +355,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -382,6 +387,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -402,6 +408,7 @@
 		15AB2F9D2A5299560084C7FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8Z7DUYBZ6B;
@@ -418,6 +425,7 @@
 		15AB2F9E2A5299560084C7FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8Z7DUYBZ6B;
